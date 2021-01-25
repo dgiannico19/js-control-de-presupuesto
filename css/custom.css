@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+
+  background: url(../fondo.jfif);
+  background-size: cover;
+}
+header {
+  margin: 30px 0;
+}
+.contenido {
+  padding: 20px;
+}
+.contenido-principal {
+  background-color: rgba(115, 112, 112, 0.8);
+  padding: 30px;
+  border-radius: 20px;
+}
+.presupuesto p {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.presupuesto p span {
+  font-weight: normal;
+}
+#gastos {
+  margin-bottom: 30px;
+}
+h1 {
+  -webkit-text-stroke: 0.6px rgb(0, 0, 0, 0.6);
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+h2 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: bold;
+  color: #010305;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
